@@ -1,7 +1,7 @@
 $(function () {
   var currentDayEl = $("#currentDay");
   var currentDayTime = dayjs().format("MMMM DD, YYYY");
-  var saveBtn = $(".saveButton");
+  var saveBtn = $(".saveBtn");
   var timeBlock = $(".time-block")
 
   currentDayEl.text(currentDayTime);
@@ -17,6 +17,13 @@ $(function () {
     } else if (id > currentTime) {
       $(this).children(".description").attr("class", "col-8 col-md-10 description future")
     }
+  })
+
+  saveBtn.on("click", function() {
+    var hour = $(this).parent().attr("id")
+    var description = $(this).siblings(".description").val()
+
+    localStorage.setItem(hour, description)
   })
 
 
