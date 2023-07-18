@@ -1,6 +1,6 @@
 $(function () {
   var currentDayEl = $("#currentDay");
-  var currentDayTime = dayjs().format("MMMM DD, YYYY");
+  var currentDayTime = dayjs().format("MMMM DD, YYYY, HH:mm:ss");
   var saveBtn = $(".saveBtn");
   var timeBlock = $(".time-block");
 
@@ -30,3 +30,4 @@ $(function () {
     $(`#hour-${i} textarea`).val(localStorage.getItem(`hour-${i}`));
   };
 });
+
