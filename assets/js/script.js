@@ -2,30 +2,31 @@ $(function () {
   var currentDayEl = $("#currentDay");
   var currentDayTime = dayjs().format("MMMM DD, YYYY");
   var saveBtn = $(".saveBtn");
-  var timeBlock = $(".time-block")
+  var timeBlock = $(".time-block");
 
   currentDayEl.text(currentDayTime);
 
-  var currentTime = dayjs().hour()
+  var currentTime = dayjs().hour();
 
   timeBlock.each(function() {
-    var id = $(this).attr("id").slice(5)
+    var id = $(this).attr("id").slice(5);
     if(id < currentTime) {
-      $(this).children(".description").attr("class", "col-8 col-md-10 description past")
+      $(this).children(".description").attr("class", "col-8 col-md-10 description past");
     } else if (id == currentTime) { 
-      $(this).children(".description").attr("class", "col-8 col-md-10 description present")
+      $(this).children(".description").attr("class", "col-8 col-md-10 description present");
     } else if (id > currentTime) {
-      $(this).children(".description").attr("class", "col-8 col-md-10 description future")
+      $(this).children(".description").attr("class", "col-8 col-md-10 description future");
     }
-  })
+  });
 
   saveBtn.on("click", function() {
-    var hour = $(this).parent().attr("id")
-    var description = $(this).siblings(".description").val()
+    var hour = $(this).parent().attr("id");
+    var description = $(this).siblings(".description").val();
 
-    localStorage.setItem(hour, description)
-  })
+    localStorage.setItem(hour, description);
+  });
 
-
-
+  for(var i = 9; i <= 17; i++) {
+    $(`#hour-${i} textarea`).val(localStorage.getItem(`hour-${i}`));
+  };
 });
