@@ -20,17 +20,17 @@ Paragraph 4 What did you learn? Why did you build this project?
 N/A
 
 ### Usage
-
-Post the video Here!
 ![gif workday](https://github.com/lo-mido/9to5Scheduler/assets/133980632/208ff6b9-9b8a-4911-b838-b8efb3b9c397)
 
-
 <img src="./assets/images/workday.png" alt="Workday schedule">
-picture of the scheduler website!
+Picture of the scheduler website!
+<a href="https://lo-mido.github.io/9to5Scheduler/"> Link to Live Website</a>
+
 Work Day Scheduler created with HTML, CSS and Javascript. Use this Link: Use This Link to View Live Preview `
 Credits: Team Work Make the Dream Work! We worked together systematically on zoom totaling a total of 15+ Hours Phil Loy, Instructor Lourdes Dorvilus <https://github.com/lo-mido> & Tutor Support via ABC Learning Application.
 
-Tutorial Links: <https://courses.bootcampspot.com/courses/3883/assignments/57119?module_item_id=1004720> <https://www.w3schools.com/css/css_selectors.asp> <https://www.w3schools.com/html/html_attributes.asp> <https://htmlcheatsheet.com/css/> <https://apps.apple.com/us/app/mimo-learn-coding-programming/id1133960732?ppid=36dc2281-6a01-4f94-ad52-05a0a7062255> <https://youtu.be/tRZGeaHPoaw>
+### Tutorial Links: 
+<https://courses.bootcampspot.com/courses/3883/assignments/57119?module_item_id=1004720> <https://www.w3schools.com/css/css_selectors.asp> <https://www.w3schools.com/html/html_attributes.asp> <https://htmlcheatsheet.com/css/> <https://apps.apple.com/us/app/mimo-learn-coding-programming/id1133960732?ppid=36dc2281-6a01-4f94-ad52-05a0a7062255> <https://youtu.be/tRZGeaHPoaw>
 
 ### License: MIT License
 
