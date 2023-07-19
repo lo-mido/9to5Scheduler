@@ -8,28 +8,28 @@ The Work Day Scheduler solves the problem of managing and organizing a busy sche
 
 During the development of this project, I learned several key aspects. Firstly, I gained experience in working with the Day.js library for manipulating and displaying dates and times. Additionally, I improved my understanding of using jQuery to dynamically update HTML and CSS elements based on user interactions and current time. Lastly, I honed my skills in utilizing local storage to store and retrieve data, enabling the persistence of saved events even after page refreshes. Building this project allowed me to practice and enhance my skills in JavaScript, jQuery, HTML, CSS, and working with third-party libraries and APIs.which would increase my chances of impressing potential employers.
 
-# Table of Contents:
+## Table of Contents
 
 Paragraph 1: What was the assignment or task?
 Paragraph 2: What was your motivation?
 Paragraph 3: What problem does it solve?
 Paragraph 4 What did you learn? Why did you build this project?
 
-# Installation
+### Installation
 
 N/A
 
-# Usage
+### Usage
 
 Post video Here!
 <img src="./assets/images/workday.png" alt="Work day schedule">
 picture of scheduler website!
 Work Day Scheduler created with HTML, CSS and Javascript. Use this Link: Use This Link to View Live Preview `
-Credits: Team Work Make the Dream Work! We worked together systematically on zoom totaling a total of 15+ Hours Phil Loy, Instructor Lourdes Dorvilus https://github.com/lo-mido & Tutor Support via ABC Learning Application
+Credits: Team Work Make the Dream Work! We worked together systematically on zoom totaling a total of 15+ Hours Phil Loy, Instructor Lourdes Dorvilus <https://github.com/lo-mido> & Tutor Support via ABC Learning Application
 
-Tutorial Links: https://courses.bootcampspot.com/courses/3883/assignments/57119?module_item_id=1004720 https://www.w3schools.com/css/css_selectors.asp https://www.w3schools.com/html/html_attributes.asp https://htmlcheatsheet.com/css/ https://apps.apple.com/us/app/mimo-learn-coding-programming/id1133960732?ppid=36dc2281-6a01-4f94-ad52-05a0a7062255 https://youtu.be/tRZGeaHPoaw
+Tutorial Links: <https://courses.bootcampspot.com/courses/3883/assignments/57119?module_item_id=1004720> <https://www.w3schools.com/css/css_selectors.asp> <https://www.w3schools.com/html/html_attributes.asp> <https://htmlcheatsheet.com/css/> <https://apps.apple.com/us/app/mimo-learn-coding-programming/id1133960732?ppid=36dc2281-6a01-4f94-ad52-05a0a7062255> <https://youtu.be/tRZGeaHPoaw>
 
-# License: MIT License
+### License: MIT License
 
 Copyright (c) 2023 Lourdes Dorvilus
 
@@ -39,10 +39,10 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-# How to Contribute
+### How to Contribute
 
 Lourdes M. Dorvilus
 
-# Testing
+### Testing
 
 Tests Using VS Code & GIT HUB to host the webpage.
